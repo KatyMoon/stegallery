@@ -1,0 +1,142 @@
+html {
+  direction: rtl; 
+}
+body {
+  direction: rtl;
+}
+th {
+  text-align: right;
+}
+
+.comment .new, .node .picture, .comment .picture, 
+#top-elements, #banner .block, #search, 
+.xmll, .by, 
+body.sfish #navlinks ul li li {
+	float: left;
+}
+#logo, #content-middle {
+	float: right;
+}
+#logo img {
+	margin: 0 20px 5px 15px;
+}
+#toplinks {
+	margin-left: 10px;
+}
+#top-elements {
+	padding: 0 0 0 20px;
+}
+#site-name {
+	margin: 0 35px 0 0;
+}
+#site-name a, #site-name a:hover {
+	margin-right: -2px;
+}
+#site-slogan {
+	padding: 3px 37px 0 0;
+}
+#content-middle {
+	margin-left: 20px;
+}
+.block .title {
+	padding: 6px 28px 6px 6px;
+}
+.node .terms {
+	padding-right: 0.6em;
+}
+.comment .title {
+	padding: 10px 19px 12px 0;
+	background: transparent url(../images/all/ltr_icon-comment.png) right center no-repeat;
+
+}
+td.section.divider {
+	border-left: none;
+	border-right: 1px dashed #ddd;
+}
+#breadcrumb {
+	padding-right: 20px;
+}
+#footer .block ul, #footer ul.links li.first {
+	margin-right: 0;
+	padding-right: 0;
+}
+.xmll {
+	padding-left: 15px;
+}
+#forum td.container {
+	background: #cdcdcd url(../images/all/ltr_forum-container.jpg) left top no-repeat;
+}
+#forum td.container a {
+	padding: 10px 40px 10px 0;
+	background: transparent url(../images/all/ltr_forum-link.png) right center no-repeat;
+}
+#user-login-form ul li.openid-link ,
+#user-login-form ul li.user-link {
+	margin-right: 0;
+}
+.block-i18n .item-list li, .block-translation .item-list li {
+	margin: 0 22px 0 0;
+}
+#continue-shopping-button {
+  margin-left: 50% !important;
+}
+div.toboggan-login-link-container {
+  padding-right: 20px;
+}
+.product-image {
+	padding: 7px 5px 2px 0;
+}
+li.collapsed {
+	list-style-image: url(../images/all/ltr_menu-collapsed.png);
+}
+
+/* SUCKERFISHMENU */
+
+.navleft {
+	float: left;
+	padding-left: 20px;
+}
+.navright {
+	float: right;
+	padding-right: 20px;
+}
+body.sfish #navlinks ul.menu li ul.menu li.expanded a,
+body.sfish #navlinks ul.menu li ul.menu li ul.menu li.expanded a,
+body.sfish #navlinks ul.menu li ul.menu li ul.menu li ul.menu li.expanded a {
+	background-image: none;
+}
+body.sfish #navlinks ul ul {
+	margin: 24px -80px 0 0;
+}
+body.sfish #navlinks ul li li {
+	float: left;
+}
+body.sfish #navlinks ul li ul ul {
+	margin: -27px 180px 0 0;
+}
+body.sfish #navlinks ul li:hover ul ul, body.sfish #navlinks ul li:hover ul ul ul, 
+body.sfish #navlinks ul li.sfhover ul ul, body.sfish #navlinks ul li.sfhover ul ul ul,
+body.sfish #navlinks ul li ul {
+	right: -999em;
+}
+body.sfish #navlinks ul li:hover ul, body.sfish #navlinks ul li li:hover ul, body.sfish #navlinks ul li li li:hover ul, 
+body.sfish #navlinks ul li.sfhover ul, body.sfish #navlinks ul li li.sfhover ul, body.sfish #navlinks ul li li li.sfhover ul {
+	right: auto;
+}
+
+/* BLOCK ICONS */
+
+body.bicons32 div.block-icon {
+	margin: -5px -5px 0 0;
+}
+body.bicons48 div.block-icon {
+	margin: -15px -18px 0 0;
+}
+body.bicons32 .block.themed-block .title,
+body.bicons48 .block.themed-block .title {
+	text-align: left;
+}
+.block ul {
+	padding-right: 10px;
+	padding-left: 0;
+}
