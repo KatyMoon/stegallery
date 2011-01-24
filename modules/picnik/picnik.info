@@ -1,0 +1,13 @@
+; $Id$
+
+name = Picnick
+description = Integrates Picnick online photo editing service
+core = 6.x
+version = "6.x-1.0"
+
+; Information added by drupal.org packaging script on 2010-04-15
+version = "6.x-1.0-beta1"
+core = "6.x"
+project = "picnik"
+datestamp = "1271349014"
+

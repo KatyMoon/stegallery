@@ -1,0 +1,24 @@
+/* $Id$ */
+
+.picnik-img-wrap{
+	position: relative;
+}
+.picnik-img-wrap a,
+.picnik-img-wrap a:link,
+.picnik-img-wrap a:visited,
+.picnik-img-wrap a:active{
+	width: 100%;
+	background-color: #202020;
+	color: #fff;
+	text-decoration: none;
+	display: block;
+	position: absolute;
+	bottom: 2px;
+	left: 0;
+	display: none;
+	padding: 5px 0;
+	filter:alpha(opacity=85);
+	-moz-opacity:0.85;
+	opacity: 0.85;
+	text-align: center;
+}
