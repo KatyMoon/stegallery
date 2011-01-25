@@ -697,7 +697,9 @@ div.view-Albums-themed .views-field-title span.field-content a
 
 div.view-Albums-themed .field-content p
 {
+	width: 200px;
 	color: #999;
+	line-height: 120%;
 }
 
 div.view-Albums-themed .views-row
