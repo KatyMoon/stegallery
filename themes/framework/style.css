@@ -65,7 +65,8 @@ h1 {
 }
 
 h2 {
-  font-size: 2em;
+	font-size: 240%;
+	line-height: 130%;
 }
 
 h3 {
@@ -678,3 +679,49 @@ table.system-status-report tr.warning,table.system-status-report tr.warning th{b
 table.system-status-report tr.ok,table.system-status-report tr.ok th{background-color:#dfd;border-color:#beb;}
 table.system-status-report th{padding-bottom:6px;padding-top:6px;}
 table.system-status-report th,table.system-status-report tr.merge-up td{padding-left:30px;}
+
+/*Photogallery*/
+
+
+div.view-Albums-themed
+{
+	margin-top: 30px;
+}
+
+div.view-Albums-themed .views-field-title span.field-content a
+{
+	color: #96C956;
+	font-size: 120%;
+	font-weight: bold;
+}
+
+div.view-Albums-themed .field-content p
+{
+	color: #999;
+}
+
+div.view-Albums-themed .views-row
+{
+	float: left;
+	margin-right: 25px;
+}
+
+div.view-Albums-themed h3
+{
+	clear: left;
+}
+
+h2
+{
+	color: #27A697;
+}
+
+
+
+
+
+
+
+
+
+
