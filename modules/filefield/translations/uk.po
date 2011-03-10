@@ -19,7 +19,7 @@ msgstr "Поле %title є обов'язковим"
 msgid "@title: !required"
 msgstr "@title: !required"
 
-msgid "Allowed extensions: %ext"
+msgid "Allowed Extensions: %ext"
 msgstr "Припустимі розширення: %ext"
 
 msgid "Allowed extensions: %ext."
@@ -172,7 +172,7 @@ msgstr "Список"
 msgid "List field"
 msgstr "Список полів"
 
-msgid "Maximum file size: %size"
+msgid "Maximum Filesize: %size"
 msgstr "Максимальний розмір файлу: %size"
 
 msgid "Maximum file size: !size."
