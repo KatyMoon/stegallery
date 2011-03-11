@@ -14,7 +14,10 @@
  */
  
 
- 
+ a {
+	color:#27A697;
+ }
+
  .floatleft {
  	float:left;
  }
@@ -78,8 +81,6 @@ position: relative;
 top: -1px;
 }
 
-
-
 ul.nice-menu li.menuparent a:after {
 content: "|";
 color: #008566;
@@ -107,13 +108,11 @@ ul.nice-menu li ul {
 	margin:1px;
 }
 
-
 ul.nice-menu li a.last:after {
 content: "";
 margin-left:0;
 }
 
- 
 #footer {
 display:block;
 background: #96C956;
@@ -133,15 +132,15 @@ text-decoration: none;
 color: #1A8563;
 }
 
- 
- #block-menu-menu-tertiarylinks {
+#block-menu-menu-tertiarylinks {
  	height:10px;
- }
+}
   
- #etside {
- 	 	float:left;
- 	width:160px;
- }
+#etside {	 	
+ 	width:198px;
+	margin-right: 27px;
+	float:left;
+}
  
 #block-menu-menu-event-types, #block-menu-menu-actions, 
 #block-menu-menu-about-us, #block-menu-menu-our-story, #block-views-Blog-block_1 {
@@ -163,13 +162,10 @@ color: #1A8563;
  	font-size:100%;
  }
  
- 
- 
  .optionscaa {
- 	margin-left:225px;
+	width: 545px;
+	float: left;
  }
- 
- 
  
  ul.nice-menu, ul.primary-links {
  	width:100%;
@@ -203,7 +199,7 @@ padding: 2px 0;
 }
 
 #etside li a.active {
-color: #555;
+color: #aad459;
 font-weight: bold;
 }
 
@@ -234,21 +230,16 @@ color:#AAD459;
  		color:#27A697;
 }
  
-  a {
-  	 		color:#27A697;
-  }
 
 
-
-  
-  #etside .block {
-  	margin-bottom:30px;
-	width: 100%;
+#etside .block {
+	margin-bottom:30px;
+	width: 160px;
 	border:1px dashed #AAD459;
 	left:-9px;
 	padding:18px;
 	position:relative; 
-  }
+ }
  
 
 
@@ -442,7 +433,6 @@ ul li, ul.menu li, .item-list ul li, li.leaf {
 
 }
 
-
 #etside ol li, #etside ul li, #etside ul.menu li, #etside .item-list ul li, #etside li.leaf {
   margin: 0.15em 0 0.15em 0em; /* LTR */
 }
@@ -451,6 +441,23 @@ ul li, ul.menu li, .item-list ul li, li.leaf {
   padding: 0 0 .2em 0em;
   list-style-type: none;
   list-style-image: none;
+}
+
+#etside div ul li.expanded a
+{
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+#etside div ul li.leaf a
+{
+	text-decoration: none;
+	font-weight: normal;
+}
+
+#etside div ul li.leaf a.active
+{
+	font-weight: bold;
 }
 
 #etside div ul li.expanded ul.menu{
@@ -463,9 +470,9 @@ ul li.collapsed {
 
 }
 
-ul li.leaf a, ul li.expanded a, ul li.collapsed a {
+/*ul li.leaf a, ul li.expanded a, ul li.collapsed a {
   display: block;
-}
+}*/
 
 ul.inline li {
   background: none;
@@ -1228,9 +1235,12 @@ span.inline .caption {
 }
 
 /*..............gallery styles..................*/
-body.lightbox-processed div.optionscaa 
+
+.view-content
 {
-	margin-left: 0;/* $Id: lightbox2.js,v 1.1.4.39 2010/06/07 15:24:24 snpower Exp $ */
+	width: 100%;
+	margin-top: 25px;
+	float: left;
 }
 
 h2.albums
